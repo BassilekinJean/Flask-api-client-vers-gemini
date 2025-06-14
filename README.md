@@ -22,7 +22,7 @@ installer l'environnement :
 
     pip install -r requirements.txt
 
-créer un fichier .env tel quel :
+créer un fichier .env dans le dossier racine tel quel :
 
           FLASK_APP=run.py
           FLASK_ENV=development
