@@ -22,6 +22,12 @@ installer l'environnement :
 
     pip install -r requirements.txt
 
+créer un fichier .env tel quel :
+
+          FLASK_APP=run.py
+          FLASK_ENV=development
+          GEMINI_API_KEY=VOTRE CLE API
+
 lancez l'application avec la commande depuis le répertoire /app:
 
     python3 app.py
